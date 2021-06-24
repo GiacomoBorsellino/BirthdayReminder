@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(216, 96, 116);
+    font-family: roboto;
+
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em 3em;
+
+
+    padding: 5em;
+
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+}
+
+.burg {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5em;
+    text-align: left;
+}
+
+img {
+    width: 50px;
+}
+
+button {
+    background-color: rgb(216, 96, 116);
+    font-family: roboto;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 0px;
+    padding: 1em;
+    margin: 1em;
+}
+
+h4 {
+    margin-top: 1em;
+}
